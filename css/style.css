@@ -1,0 +1,176 @@
+body{color:#0d0a0a;font-family:'Roboto Slab',serif;font-size:1.5em;line-height:.1em;background-color:#f3f0e9}
+h1{font-family:'Fjalla One',sans-serif;font-size:2em;text-transform:uppercase;letter-spacing:.1em}
+.cover{display:block;max-width:100%}
+
+/*Navigation*/
+.navbar{background-color:transparent;border-color:transparent;background-color: rgba(55, 54, 54, 0.7)}
+.navbar-inverse .navbar-nav>li>a {color:rgba(249, 249, 249, 1);text-transform:uppercase;font-size:.88em;letter-spacing:.1em}
+.navbar .nav > .active a, .navbar .nav > .active a:hover, .navbar .nav > li a:hover{color:#7ec6ab;text-decoration:none;text-shadow:none;transition: all ease .5s}
+.navbar-right > li {display:inline-block;float:none}
+.navbar-inverse .navbar-nav>.active>a, .navbar-inverse .navbar-nav>.active>a:focus, .navbar-inverse .navbar-nav>.active>a:hover {color: #7ec6ab;background-color:inherit}
+
+.cover{width:100%;height:552px;display:block;background:url(../images/cover.jpg)no-repeat center;background-size:cover;margin-top:0;padding-top:0}.logo:before{font-family:'Fjalla One',sans-serif;content:"Ícaro Lobo";font-size:1.8em;letter-spacing:.05em;text-transform:uppercase;position:absolute;color:#f9f9f9;margin:380px 0 0 100px;padding:0;z-index:5;-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box}.logo:after{font-family:'Roboto Slab',serif;content:"3D Artist &";font-size:0.8em;letter-spacing:.05em;text-transform:uppercase;position:absolute;color:#f9f9f9;margin:450px 0 0 100px;padding:0;z-index:5;-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box}.description:after{font-family:'Roboto Slab',serif;content:"Motion Designer";font-size:0.8em;letter-spacing:.05em;text-transform:uppercase;position:absolute;color:#f9f9f9;margin:475px 0 0 100px;padding:0;z-index:5;-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box}.detail:after{font-family:'Roboto Slab',serif;content:"";position:absolute;width:3px;height:148px;background:#7ec6ab;margin:348px 0 0 75px;padding:0;z-index:5;-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box}.detail:before{font-family:'Roboto Slab',serif;content:"...";font-size:2.5em;color:#7ec6ab;letter-spacing:.05em;position:absolute;margin:408px 0 0 100px;padding:0;z-index:5;-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box}
+#portfolio{position:relative;clear:both;z-index:0;padding-top:120px}#portfolio h1{font-size:2em;line-height:130%;text-transform:uppercase;letter-spacing:.1em;position:relative;text-align:center;bottom:45px}.bar:before{content:"";display:block;width:143px;height:4px;background:#7ec6ab;margin:0 auto}
+
+/*Skills*/
+#skills{position:relative;padding-top:120px}#skills h1{font-size:2em;text-transform:uppercase;letter-spacing:.1em;position:relative;text-align:center;line-height:130%;bottom:45px}.bar2:before{content:"";display:block;width:87px;height:4px;background:#7ec6ab;margin:0 auto}
+
+.icon-after{float:center;margin:0 auto;}p.after{text-transform:uppercase;font-size:1.1em;padding: 15px 0 80px 0}
+.icon-davinci{float:center;margin:0 auto;}p.davinci{text-transform:uppercase;font-size:1.1em;padding: 15px 0 80px 0}
+.icon-illustrator{float:center;margin:0 auto;}p.illustrator{text-transform:uppercase;font-size:1.1em;padding: 15px 0 80px 0}
+.icon-maya{float:center;margin:0 auto;}p.maya{text-transform:uppercase;font-size:1.1em;padding: 15px 0 50px 0}
+.icon-photoshop{float:center;margin:0 auto;}p.photoshop{text-transform:uppercase;font-size:1.1em;padding: 15px 0 50px 0}
+.icon-premiere{float:center;margin:0 auto;}p.premiere{text-transform:uppercase;font-size:1.1em;padding: 15px 0 50px 0}
+
+/*About*/
+
+#about{line-height:150%}#about h1{line-height:130%;font-size:2em;text-transform:uppercase;letter-spacing:.1em;position:relative;top:10px}
+.bar3:before{content:"";display:block;width:87px;height:4px;background:#7ec6ab;margin:0 auto}
+.bio:before{font-family:'Libre Baskerville',serif;content:"“";font-size:120px;font-weight:600;position:absolute;width:120px;height:150px;color:#7ec6ab}
+.bio{top:60px;font-size:1.19em;text-align:left;line-height:1.8em}
+.bio:after{font-family:'Libre Baskerville',serif;content:"”";font-size:120px;font-weight:600;position:absolute;width:120px;height:150px;color:#7ec6ab;margin:10px 0 0 475px;}
+.image{margin:200px auto;max-width:95%}
+
+/*Contact*/
+
+#contact h1{margin-top: 170px;font-size:2em;text-transform:uppercase;letter-spacing:.1em;position:relative;line-height:130%;bottom:60px}
+.bar4:before{content:"";display:block;width:183px;height:4px;background:#7ec6ab;margin:0 auto}
+.location{margin:-30px auto}p.location-p{display:inline-block;font-size:1.2em;margin:7px 17px;padding:10px 0}.fa-map-marker{color:#7ec6ab}
+.phone{margin:20px auto}p.phone-p{display:inline-block;font-size:1.2em;margin:0 3px;padding:0}
+.fa-map-marker{color:#7ec6ab}.fa-mobile{color:#7ec6ab}.fa-download{color:#7ec6ab}.fa-envelope{color:#7ec6ab}
+.mail{margin:-7px auto}a.mail-p{display:inline-block;font-size:1.2em;margin:0 3px;color:#0d0a0a;padding:20px 0;transition:.3s}a.mail-p:hover{color:#7ec6ab;text-decoration:none}
+.download{margin:15px auto}a.download-p{display:inline-block;font-size:1.2em;margin:0 3px;color:#0d0a0a;padding :0 0 50px 0;transition:.3s}a.download-p:hover{color:#7ec6ab;text-decoration:none}
+/*Footer*/
+.container_footer{width:100%;color:#f9f9f9;padding-top:30px;padding-bottom:5px;font-size:1em;line-height:1.9em;background-color:#373636}
+.fa-heart{color:#7ec6ab}
+
+/*Media Queries*/
+
+/* Mobile */
+@media (min-width: 320px) and (max-width: 550px) {
+/* Nav */
+
+button.navbar-toggle.collapsed{border-color:transparent}
+.navbar-inverse .navbar-nav>li>a {font-size:.7em}
+
+/* Cover */
+.cover{width:100%;height:276px;display:block;background:url(../images/cover.jpg)no-repeat center;background-size:cover;margin-top:0;padding-top:0}.logo:before{font-family:'Fjalla One',sans-serif;content:"Ícaro Lobo";font-size:0.8em;letter-spacing:.05em;text-transform:uppercase;position:absolute;color:#f9f9f9;margin:190px 0 0 40px;padding:0;-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box}.logo:after{font-family:'Roboto Slab',serif;content:"3D Artist &";font-size:.4em;letter-spacing:.05em;text-transform:uppercase;position:absolute;color:#f9f9f9;margin:230px 0 0 40px;padding:0;-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box}.description:after{font-family:'Roboto Slab',serif;content:"Motion Designer";font-size:.4em;letter-spacing:.05em;text-transform:uppercase;position:absolute;color:#f9f9f9;margin:244px 0 0 40px;padding:0;-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box}.detail:after{font-family:'Roboto Slab',serif;content:"";position:absolute;width:2px;height:83px;background:#7ec6ab;margin:174px 0 0 25px;padding:0;-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box}.detail:before{font-family:'Roboto Slab',serif;content:"...";font-size:1.8em;color:#7ec6ab;letter-spacing:.05em;position:absolute;margin:203px 0 0 40px;padding:0;-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box}
+/* Skills */
+p.after{font-size: 0.5em}
+p.davinci{font-size: 0.5em;margin: 0 0 0 -3px;float:center}
+p.illustrator{font-size: 0.5em}
+p.maya{font-size: 0.5em}
+p.photoshop{font-size: 0.5em}
+p.premiere{font-size: 0.5em}
+div.col-xs-4{margin-bottom:-50px}
+
+
+/* About */
+#about h1{padding-top:50px;}
+.bio:before{font-size:100px;position:absolute;width:80px;height:80px}
+.bio{position:relative;display:inline-block;font-size:1em;text-align:left;line-height:1.8em}
+.bio:after{font-size:100px;position:absolute;width:80px;height:80px;margin:15px 0 0 205px;float:right}
+.image{margin:115px auto;max-width:60%}
+/* Contact */
+#portfolio h1{margin-top:-30px;bottom:20px}
+#skills h1{margin-top:-40px;bottom:10px}
+#about h1{margin-top:-20px;bottom:-35px}
+#contact h1{margin-top:-5px;bottom:45px}
+p.location-p{font-size:1em}
+p.phone-p{font-size:1em}
+a.mail-p{font-size:1em;transition:.3s}
+a.download-p{font-size:1em;transition:.3s}
+.container_footer{font-size:0.8em;line-height:1.8em;letter-spacing:.05em}
+}/* Close Mobile */
+
+
+@media (min-width: 551px) and (max-width: 600px) {
+/* Nav */
+button.navbar-toggle.collapsed{border-color:transparent}
+
+p.after{font-size: 0.8em;margin: 0 0 0 -5px}
+p.davinci{font-size: 0.8em;margin: 0 0 0 -9px;float:center}
+p.illustrator{font-size: 0.8em}
+p.maya{font-size: 0.8em}
+p.photoshop{font-size: 0.8em}
+p.premiere{font-size: 0.8em}
+/* Cover */
+.cover{width:100%;height:276px;display:block;background:url(../images/cover.jpg)no-repeat center;background-size:cover;margin-top:0;padding-top:0}.logo:before{font-family:'Fjalla One',sans-serif;content:"Ícaro Lobo";font-size:0.8em;letter-spacing:.05em;text-transform:uppercase;position:absolute;color:#f9f9f9;margin:190px 0 0 40px;padding:0;-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box}.logo:after{font-family:'Roboto Slab',serif;content:"3D Artist &";font-size:.4em;letter-spacing:.05em;text-transform:uppercase;position:absolute;color:#f9f9f9;margin:230px 0 0 40px;padding:0;-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box}.description:after{font-family:'Roboto Slab',serif;content:"Motion Designer";font-size:.4em;letter-spacing:.05em;text-transform:uppercase;position:absolute;color:#f9f9f9;margin:244px 0 0 40px;padding:0;-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box}.detail:after{font-family:'Roboto Slab',serif;content:"";position:absolute;width:2px;height:83px;background:#7ec6ab;margin:174px 0 0 25px;padding:0;-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box}.detail:before{font-family:'Roboto Slab',serif;content:"...";font-size:1.8em;color:#7ec6ab;letter-spacing:.05em;position:absolute;margin:203px 0 0 40px;padding:0;-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box}
+/* About */
+.bio:before{font-size:100px;position:absolute;width:80px;height:80px}
+.bio{font-size:1.1em;line-height:1.8em}
+.bio:after{font-size:100px;position:relative;width:80px;height:80px;margin:15px 0 0 275px;float:right;}
+.image{margin:10px auto;max-width:60%}
+#portfolio h1{margin-top:-30px;bottom:20px}
+#skills h1{margin-top:-40px;bottom:10px}
+#about h1{margin-top:-15px;bottom:-25px}
+#contact h1{margin-top:110px;bottom:50px}
+p.location-p{font-size:1em}
+p.phone-p{font-size:1em}
+a.mail-p{font-size:1em;transition:.3s}
+a.download-p{font-size:1em;transition:.3s}
+.container_footer{font-size:0.85em;line-height:1.9em;letter-spacing:.05em}
+}/* Close Mobile */
+
+@media (min-width: 601px) and (max-width: 767px) {
+  /* Nav */
+button.navbar-toggle.collapsed{border-color:transparent}
+p.after{font-size: 0.8em;margin: 0 0 0 -5px}
+p.davinci{font-size: 0.8em;margin: 0 0 0 -9px;float:center}
+p.illustrator{font-size: 0.8em}
+p.maya{font-size: 0.8em}
+p.photoshop{font-size: 0.8em}
+p.premiere{font-size: 0.8em}
+/* Cover */
+.cover{width:100%;height:276px;display:block;background:url(../images/cover.jpg)no-repeat center;background-size:cover;margin-top:0;padding-top:0}.logo:before{font-family:'Fjalla One',sans-serif;content:"Ícaro Lobo";font-size:0.8em;letter-spacing:.05em;text-transform:uppercase;position:absolute;color:#f9f9f9;margin:190px 0 0 40px;padding:0;-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box}.logo:after{font-family:'Roboto Slab',serif;content:"3D Artist &";font-size:.4em;letter-spacing:.05em;text-transform:uppercase;position:absolute;color:#f9f9f9;margin:230px 0 0 40px;padding:0;-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box}.description:after{font-family:'Roboto Slab',serif;content:"Motion Designer";font-size:.4em;letter-spacing:.05em;text-transform:uppercase;position:absolute;color:#f9f9f9;margin:244px 0 0 40px;padding:0;-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box}.detail:after{font-family:'Roboto Slab',serif;content:"";position:absolute;width:2px;height:83px;background:#7ec6ab;margin:174px 0 0 25px;padding:0;-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box}.detail:before{font-family:'Roboto Slab',serif;content:"...";font-size:1.8em;color:#7ec6ab;letter-spacing:.05em;position:absolute;margin:203px 0 0 40px;padding:0;-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box}
+
+.bio:before{font-size:100px;position:absolute;width:80px;height:80px}
+.bio{font-size:1.1em;line-height:1.8em}
+.bio:after{font-size:100px;position:relative;width:80px;height:80px;margin:5px 0 0 385px;float:right;}
+.image{margin:5px auto;max-width:50%}
+
+#portfolio h1{margin-top:-30px;bottom:20px}
+#skills h1{margin-top:-40px;bottom:10px}
+#about h1{margin-top:-15px;bottom:-15px}
+#contact h1{margin-top:115px;bottom:50px}
+p.location-p{font-size:1em}
+p.phone-p{font-size:1em}
+a.mail-p{font-size:1em;transition:.3s}
+a.download-p{font-size:1em;transition:.3s}
+.container_footer{font-size:0.85em;line-height:1.9em}
+}/* Close  */
+
+/* Larger than tablet */
+@media (min-width: 768px) and (max-width: 959px) {
+.navbar-inverse .navbar-nav>li>a {font-size:.75em;margin:0 -3px}
+/* Cover */
+.cover{width:100%;height:552px;display:block;background:url(../images/cover.jpg)no-repeat center;background-size:cover;margin-top:0;padding-top:0}.logo:before{font-family:'Fjalla One',sans-serif;content:"Ícaro Lobo";font-size:1.3em;letter-spacing:.05em;text-transform:uppercase;position:absolute;color:#f9f9f9;margin:390px 0 0 60px;padding:0;-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box}.logo:after{font-family:'Roboto Slab',serif;content:"3D Artist &";font-size:.6em;letter-spacing:.05em;text-transform:uppercase;position:absolute;color:#f9f9f9;margin:440px 0 0 60px;padding:0;-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box}.description:after{font-family:'Roboto Slab',serif;content:"Motion Designer";font-size:.6em;letter-spacing:.05em;text-transform:uppercase;position:absolute;color:#f9f9f9;margin:464px 0 0 60px;padding:0;-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box}.detail:after{font-family:'Roboto Slab',serif;content:"";position:absolute;width:2px;height:120px;background:#7ec6ab;margin:363px 0 0 35px;padding:0;-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box}.detail:before{font-family:'Roboto Slab',serif;content:"...";font-size:2.2em;color:#7ec6ab;letter-spacing:.05em;position:absolute;margin:408px 0 0 60px;padding:0;-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box}
+.bio:before{font-size:120px;position:absolute;width:120px;height:150px}
+.bio{font-size:1.1em;line-height:1.8em}
+.bio:after{font-size:120px;width:120px;height:150px;position:relative;margin:30px 0 0 275px;float:right}
+.image{margin:-70px auto;max-width:40%}
+#contact h1{margin-top:210px;bottom:60px}
+
+}/* Close  */
+
+/* Larger than desktop */
+@media (min-width: 960px) and (max-width: 1000px) {
+.bio:before{font-size:120px;position:absolute;width:120px;height:150px}
+.bio{font-size:1.2em;line-height:1.8em}
+.bio:after{font-size:120px;position:relative;width:120px;height:150px;margin:25px 0 0 285px;float:right}
+.image{margin:-40px auto;max-width:40%}
+#contact h1{margin-top:180px;bottom:60px}
+p.location-p{font-size:1.2em}
+p.phone-p{font-size:1.2em}
+a.mail-p{font-size:1.2em;transition:.3s}
+a.download-p{font-size:1.2em;transition:.3s}
+
+}/* Close */
+
+/* Larger than Desktop HD */
+@media (min-width: 1001px) and (max-width: 1200px){
+.bio:after{font-size:120px;position:relative;width:120px;height:150px;margin:20px 0 0 285px;float:right}
+.image{margin:260px auto;max-width:95%}
+#contact h1{margin-top:50px;bottom:70px}
+
+}/* Close */
